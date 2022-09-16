@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--head-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Jin & Jinly</title>
+</head>
+
+<!--header-->
+<header>
+    <span class="span-background title">
+        <h1>Jin Yang</h1>
+    </span>
+    <nav>
+        <ul class="nav-highlights">
+            <li>
+                <!-- link elements -->
+                <a href="#html">Html basics</a>
+            </li>
+            <li>
+                <a href="#webs">Webs</a>
+            </li>
+            <li>
+                <a href="#contact-me">Contact Me</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!--main body content-->
+
+<body>
+    <section class="hero">
+        <div class="hero-subtitle">
+            <span class="span-background picture">Hello hello!</span>
+            <!--the sub on ribbon picture -->
+    </section>
+
+    <!--html discription part-->
+    <article>
+        <div id="html" class="html-wrapper">
+            <div class="html-matrix">
+                <div class="html-title">
+                    <h2>Html basics</h2>
+                </div>
+                <div class="html-p">
+                    <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It's the most
+                        commomly used tool to build a webpage</p>
+
+                    <p></p>
+
+                    <p>However, HTML stand along is "plain" and "weak". It has to coordinating with other tools to make
+                        a vivid page Like This</p>
+
+                    <h3>And my friend Ur in Luck!</h3>
+                    <p>I have helped U to find some lectures about HTML and it's usual "good pals"</p>
+                </div>
+                <div>
+                </div>
+    </article>
+
+    <!--wiki page part-->
+    <article>
+        <div id="webs" class="webs-wrapper">
+            <div class="webs-matrix">
+                <!--wiki as a big icon on the top row-->
+                <div onclick="projectClicked('wiki')" class="wiki" alt="wiki">
+                    <span class="span-background">
+                        <!-- Span added to contain h3, lower text and wrapped background -->
+                        <h3>Wiki</h3>
+                        <span class="lower-text">HTML</span>
+                    </span>
+                </div>
+
+                <!--a 2 lined matrix for future comming works-->
+                <!--pass word generator-->
+                <div onclick="projectClicked('work-project password-generator')" class="work-project password-generator"
+                    alt="image of the Password Generator">
+                    <span class="span-background">
+                        <h3>Password Generator</h3>
+                        <span class="lower-text">CSS</span>
+                        <!-- description label to each work item -->
+                    </span>
+                </div>
+                <!--grounp-project DineInside-->
+                <div onclick="projectClicked('grounp-project DineInside')" class="DineInside" alt="DineInside">
+                    <span class="span-background">
+                        <h3>DineInside</h3>
+                        <span class="lower-text">JAVA</span>
+                        <!-- description label to each work item -->
+                    </span>
+                </div>
+                <!--place holder2-->
+                <div onclick="projectClicked('easy-poketbook')" class="easy-poketbook" alt="easy-poketbook">
+                    <span class="span-background">
+                        <h3>Easy poketbook</h3>
+                        <span class="lower-text">Python</span>
+                        <!-- description label to each work item -->
+                    </span>
+                </div>
+                <!--place holder3-->
+                <div onclick="projectClicked('Most-to-coast')" class="Most-to-coast" alt="Most-to-coast">
+                    <span class="span-background">
+                        <h3>Most-to-coast</h3>
+                        <span class="lower-text">C & C++</span>
+                        <!-- description label to each work item -->
+                    </span>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!--a script for click link this sees click as a input-->
+    <script>
+        function projectClicked(input) {
+            var input = input;
+            if (input == "wiki") {
+                window.open("https://developer.mozilla.org/en-US/docs/Web/HTML");
+            } else {
+                return true;
+            }
+        };
+    </script>
+
+
+
+    <script>
+        function projectClicked(input) {
+            var input = input;
+            if (input == "work-project password-generator") {
+                window.open("https://jinlly.github.io/password-generator/");
+            } else {
+                return true;
+            }
+        };
+    </script>
+
+    <script>
+        function projectClicked(input) {
+            var input = input;
+            if (input == "grounp-project DineInside") {
+                window.open("https://weareteam8.github.io/DineInside/");
+            } else {
+                return true;
+            }
+        };
+    </script>
+
+    <script>
+        function projectClicked(input) {
+            var input = input;
+            if (input == "easy-poketbook") {
+                window.open("https://fet101-app.herokuapp.com/");
+            } else {
+                return true;
+            }
+        };
+    </script>
+
+    <script>
+        function projectClicked(input) {
+            var input = input;
+            if (input == "Most-to-coast") {
+                window.open("https://developer.mozilla.org/en-US/docs/Web/HTML");
+            } else {
+                return true;
+            }
+        };
+    </script>
+
+
+</body>
+
+<!--footer grid matrix-->
+<footer>
+    <div id="contact-me" class="footer-wrapper">
+        <div class="footer-matrix">
+            <div class="footer-matrix title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="footer-matrix-item phone">
+                <a href="tel:426-503-6214" class="nav-highlights">
+                    <h2>426-503-6214
+                        <h2>
+                </a>
+            </div>
+            <div class="footer-matrix-item email">
+                <a href="https://yiciluo2@gmail.com">
+                    <h2>yiciluo2@gmail.com
+                        <h2>
+                </a>
+            </div>
+            <div class="footer-matrix-item git-hub">
+                <a href="https://github.com/Jinlly" target="_blank">
+                    <h2>GitHub
+                        <h2>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
